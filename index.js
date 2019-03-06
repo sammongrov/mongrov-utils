@@ -6,7 +6,7 @@
 import moment from 'moment';
 import dns from 'dns.js';
 import { Colors } from '@ui/theme_default';
-import { Config } from '@appConfig';
+import { Config } from '@mongrov/config';
 
 let _DEBUG_MODE = process.env.NODE_ENV === 'development';
 
